@@ -1,0 +1,23 @@
+[
+  {
+    "numero": "01",
+    "nombre": "Tierra Cruda",
+    "descripcion": "Prendas de lino y algodón orgánico teñidas con plantas. Colores de la tierra para usar todo el año.",
+    "icono": "bi-flower1",
+    "destino": "https://www.instagram.com/"
+  },
+  {
+    "numero": "02",
+    "nombre": "Nube Tejida",
+    "descripcion": "Tejidos hechos a mano con lana de oveja de la Patagonia. Sweaters, chalecos y bufandas únicos.",
+    "icono": "bi-cloud",
+    "destino": "https://www.instagram.com/"
+  },
+  {
+    "numero": "03",
+    "nombre": "Costura Rota",
+    "descripcion": "Ropa vintage que se desarma y se vuelve a coser. Cada prenda es distinta a todas las demás.",
+    "icono": "bi-scissors",
+    "destino": "https://www.instagram.com/"
+  }
+]

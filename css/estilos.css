@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,wght@0,700;1,700&family=Syne:wght@400;700&display=swap');
+
+:root {
+  --fucsia: #ff2d87;
+  --naranja: #ff7a3d;
+  --negro: #0d0d0d;
+  --rosa-claro: #ffe3ef;
+}
+
+body {
+  font-family: "Syne", sans-serif;
+  background-color: var(--negro);
+  color: var(--rosa-claro);
+}
+
+h1, h2, h3, .navbar-brand, .marca, .modal-title {
+  font-family: "Bodoni Moda", serif;
+  font-weight: 700;
+}
+
+h1 {
+  font-size: 6rem;
+  line-height: 1;
+}
+
+h2 {
+  font-size: 4rem;
+  line-height: 1.1;
+}
+
+h3 {
+  font-size: 1.8rem;
+}
+
+/* sobreescribimos clases de Bootstrap */
+
+.navbar-brand {
+  font-size: 1.8rem;
+}
+
+.nav-link {
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  letter-spacing: 2px;
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+  color: var(--fucsia) !important;
+}
+
+.lead {
+  font-size: 1.3rem;
+  font-weight: 400;
+  width: 60%;
+}
+
+.text-danger {
+  color: var(--fucsia) !important;
+}
+
+.border-danger {
+  border-color: var(--fucsia) !important;
+}
+
+.btn-danger {
+  background-color: var(--fucsia);
+  border-color: var(--fucsia);
+  color: var(--negro);
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: transform 0.3s ease;
+}
+
+.btn-danger:hover {
+  background-color: var(--rosa-claro);
+  border-color: var(--rosa-claro);
+  color: var(--negro);
+  transform: translate(5px);
+}
+
+.fade {
+  transition-duration: 0.5s !important;
+}
+
+/* encabezado */
+
+header {
+  background-image: linear-gradient(135deg, var(--fucsia), var(--naranja));
+  color: var(--negro);
+}
+
+header .etiqueta {
+  letter-spacing: 3px;
+  font-size: 0.8rem;
+}
+
+header .btn {
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: transform 0.3s ease;
+}
+
+header .btn:hover {
+  transform: translate(5px);
+}
+
+/* franja de palabras debajo del encabezado */
+
+.franja {
+  background-color: var(--negro);
+  font-family: "Bodoni Moda", serif;
+  font-weight: 700;
+  font-size: 1.4rem;
+}
+
+/* tarjetas de diseñadores (se crean con js) */
+
+.tarjeta {
+  background-color: #161616;
+  transition: all 0.4s ease;
+}
+
+.tarjeta:hover {
+  border-color: var(--fucsia) !important;
+  box-shadow: 0px 6px 20px rgba(255, 45, 135, 0.35);
+  transform: translate(0, -8px);
+}
+
+/* agenda de desfiles */
+
+.desfile .hora {
+  font-size: 1.5rem;
+  width: 80px;
+}
+
+.desfile .rounded-pill {
+  font-size: 0.75rem;
+  letter-spacing: 1px;
+}
+
+.desfile {
+  transition: background-color 0.4s ease;
+}
+
+.desfile:hover {
+  background-color: #26101b;
+}
+
+/* imagen del lugar */
+
+#lugar img {
+  transition: all 0.6s ease;
+}
+
+#lugar img:hover {
+  transform: rotate(-2deg);
+  opacity: 0.85;
+}
+
+/* pie de pagina */
+
+footer .marca {
+  font-size: 2rem;
+}
+
+footer a {
+  color: var(--rosa-claro);
+  transition: color 0.3s ease;
+}
+
+footer a:hover {
+  color: var(--fucsia);
+}
+
+/* en celulares */
+
+@media (max-width: 768px) {
+  .lead {
+    width: 100%;
+  }
+
+  h1 {
+    font-size: 3.6rem;
+  }
+
+  h2 {
+    font-size: 2.8rem;
+  }
+}
